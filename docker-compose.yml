@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  fastapi_image:
+    build: ./Api
+    ports:
+      - "8001:8001"
+  webscraping_image:
+    build: ./WebScraping
